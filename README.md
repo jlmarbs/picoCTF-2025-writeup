@@ -4,7 +4,7 @@ Hello! This is the list of the challenges that I solved during picoCTF 2025 Comp
 `Will add writeups from time to time, i am busy :<`
 
 ## FORENSICS
-- RED
+- [RED](Forensics/RED.md)
 - Ph4nt0m 1ntrud3r
 - flags are stepic
 - Event-Viewing
