@@ -9,10 +9,10 @@ After downloading the `.pcap` file, I immediately checked for traces of flag sin
 And that is where I noticed the `Len=12`s and 1 `Len=4`, and that is where I started to find the flag.
 
 What I have noticed is that my packet bytes is not showing the full hex data shown in the picture below:
-![image](https://raw.githubusercontent.com/jlmarbs/picoCTF-2025-writeup/refs/heads/main/Forensics/image.png)
+<img width="1365" height="335" alt="image" src="https://github.com/user-attachments/assets/8f40b789-cad1-4186-8355-3870bdb402a9" />
 
 With that in mind, that made me filter my packets that only has the length of 12 and 4.
-![image](https://raw.githubusercontent.com/jlmarbs/picoCTF-2025-writeup/refs/heads/main/Forensics/image-1.png)
+<img width="1365" height="319" alt="image" src="https://github.com/user-attachments/assets/76b547cd-3118-4e86-bca2-cd2862bbd347" />
 
 And with that, I started converting the hex in base64 as it is partially displayed as base64 on the packet bytes.
 
