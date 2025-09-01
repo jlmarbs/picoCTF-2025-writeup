@@ -9,10 +9,10 @@ After downloading the `.pcap` file, I immediately checked for traces of flag sin
 And that is where I noticed the `Len=12`s and 1 `Len=4`, and that is where I started to find the flag.
 
 What I have noticed is that my packet bytes is not showing the full hex data shown in the picture below:
-![alt text](image.png) // im fixing this later my god
+![image](https://raw.githubusercontent.com/jlmarbs/picoCTF-2025-writeup/refs/heads/main/Forensics/image.png)
 
 With that in mind, that made me filter my packets that only has the length of 12 and 4.
-![alt text](image-1.png)
+![image](https://raw.githubusercontent.com/jlmarbs/picoCTF-2025-writeup/refs/heads/main/Forensics/image-1.png)
 
 And with that, I started converting the hex in base64 as it is partially displayed as base64 on the packet bytes.
 
@@ -27,4 +27,4 @@ And this is all I got in the TCP lengths of 12 and 4:
 
 And since they are all jumbled around, I pieced them together and got the final flag.
 
-`FLAG: picoCTF{1t_w4snt_th4t_34sy_tbh_4r_8e10e839}`
+FLAG: `picoCTF{1t_w4snt_th4t_34sy_tbh_4r_8e10e839}`
