@@ -17,13 +17,13 @@ With that in mind, that made me filter my packets that only has the length of 12
 And with that, I started converting the hex in base64 as it is partially displayed as base64 on the packet bytes.
 
 And this is all I got in the TCP lengths of 12 and 4:
-`PACKET 8 LEN=4: fQ== -> }`
-`PACKET 9 LEN=4: cGljb0NURg== -> picoCTF`
-`PACKET 13 LEN=12: ZTEwZTgzOQ== -> e10e839 (this might be different on your end)`
-`PACKET 15 LEN=12: XzM0c3lfdA== -> _34sy_t`
-`PACKET 17 LEN=12: bnRfdGg0dA== -> nt_th4t`
-`PACKET 20 LEN=12: YmhfNHJfOA== -> bh_4r_8`
-`PACKET 21 LEN=12: ezF0X3c0cw== -> {1t_w4s`
+- `PACKET 8 LEN=4: fQ== -> }`
+- `PACKET 9 LEN=4: cGljb0NURg== -> picoCTF`
+- `PACKET 13 LEN=12: ZTEwZTgzOQ== -> e10e839 (this might be different on your end)`
+- `PACKET 15 LEN=12: XzM0c3lfdA== -> _34sy_t`
+- `PACKET 17 LEN=12: bnRfdGg0dA== -> nt_th4t`
+- `PACKET 20 LEN=12: YmhfNHJfOA== -> bh_4r_8`
+- `PACKET 21 LEN=12: ezF0X3c0cw== -> {1t_w4s`
 
 And since they are all jumbled around, I pieced them together and got the final flag.
 
